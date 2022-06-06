@@ -1,0 +1,27 @@
+@import '../../../global-styles/mixins';
+
+.calculations {
+  @include clearfix;
+}
+
+.calculations-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  padding: 15px 20px;
+}
+
+.done {
+  background-color: var(--tertiary-color);
+  font-weight: bold;
+  color: #fff;
+}
+
+.again {
+  margin-top: 20px;
+  button {
+    @include button;
+    width: 100%;
+  }
+}

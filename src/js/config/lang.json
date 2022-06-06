@@ -1,0 +1,16 @@
+{
+  "en": {
+    "header": {
+      "title": "Home Calculator",
+      "back": "Back"
+    },
+    "home": {
+      "label": "Number of calculations",
+      "start": "Start"
+    },
+    "list": {
+      "finished": "Finished",
+      "again": "Again"
+    }
+  }
+}

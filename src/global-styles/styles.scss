@@ -1,0 +1,16 @@
+@import 'src/global-styles/_variables.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--page-bg);
+  font-family: var(--font-family);
+  font-size: var(--font-unit);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}

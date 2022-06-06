@@ -1,0 +1,16 @@
+@import '../../../global-styles/mixins';
+
+.calculator {
+  background: var(--secondary-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.15);
+
+  @include respond-above(md) {
+    max-width: 700px;
+    margin: 40px auto;
+  }
+}
+
+.content {
+  padding: 20px;
+}
